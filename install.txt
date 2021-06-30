@@ -1,0 +1,28 @@
+1. Descargar Node 
+2. Descargar Azure Data Studio - Para poder usar SQL Server
+3. Descargar Docker 
+4. Free Okta developer account
+
+5. mkdir node-sql-app 
+6. cd node-sql.app 
+7. npm init -y 
+8. npm install @hapi/hapi 
+9. npm install --save-dev eslint-config-reverentgeek
+10. create .eslintrc.js 
+module.exports = {
+    extends: [ "reverentgeek/node" ]
+};
+11. CREATE index.js and server.js 
+12. CREATE FILE routes 
+13. CREATE index.js in routes 
+14. npm install dotenv@8 
+15. type > .env or echo > .env
+16. CREATE config.js
+17. npm install mssql@7 fs-extra@9
+18. Created File Data
+-- .sql
+19. type index.js
+20. Created routes 
+21. Created events
+22. Created Plugins
+23. Test
